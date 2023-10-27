@@ -14,6 +14,7 @@ const MetaConfig: React.FC<MetaConfigProps> = (props) => {
   return (
     <Head>
       <title>{props.title}</title>
+      <meta name="google-site-verification" content="ivmj6yMqlNQnmjBL2VFZAYzCUZ4hufTLOBeeIb-xOKw" />
       <meta name="robots" content="follow, index" />
       <meta charSet="UTF-8" />
       <meta name="description" content={props.description} />
