@@ -12,8 +12,12 @@ const CONFIG = {
   },
   projects: [
     {
-      name: `morethan-log`,
-      href: "https://github.com/morethanmin/morethan-log",
+      name: `TravelUs`,
+      href: "https://github.com/FRONTENDSCHOOL5/final-04-fearless4",
+    },
+    {
+      name: `Sowith`,
+      href: "https://github.com/Sowith/sowith",
     },
   ],
   // blog setting (required)
@@ -23,8 +27,8 @@ const CONFIG = {
   },
 
   // CONFIG configration (required)
-  link: "https://morethan-log.vercel.app",
-  since: 2022, // If leave this empty, current year will be used.
+  link: "https://morethan-starcradle.vercel.app",
+  since: 2023, // If leave this empty, current year will be used.
   lang: "en-US", // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES', 'ko-KR']
   ogImageGenerateURL: "https://og-image-korean.vercel.app", // The link to generate OG image, don't end with a slash
 
@@ -49,7 +53,9 @@ const CONFIG = {
   utterances: {
     enable: true,
     config: {
-      repo: process.env.NEXT_PUBLIC_UTTERANCES_REPO || "starcradle101/comments_morethanlog",
+      repo:
+        process.env.NEXT_PUBLIC_UTTERANCES_REPO ||
+        "starcradle101/comments_morethanlog",
       "issue-term": "og:title",
       label: "💬 Utterances",
     },
