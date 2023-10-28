@@ -13,14 +13,9 @@ const ServiceCard: React.FC = () => {
       </StyledTitle>
       <StyledWrapper>
         {CONFIG.projects.map((project, idx) => (
-          <a
-            key={idx}
-            href={`${project.href}`}
-            rel="noreferrer"
-            target="_blank"
-          >
+          <a key={idx} href={project.href} rel="noreferrer" target="_blank">
             <AiFillCodeSandboxCircle className="icon" />
-            <div className="name">{CONFIG.projects[0].name}</div>
+            <div className="name">{project.name}</div>
           </a>
         ))}
       </StyledWrapper>
