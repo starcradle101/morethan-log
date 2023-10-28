@@ -18,15 +18,6 @@ class MyDocument extends Document {
             title="RSS 2.0"
             href="/feed"
           ></link>
-          {/* google search console */}
-          {CONFIG.googleSearchConsole.enable === true && (
-            <>
-              <meta
-                name="google-site-verification"
-                content={CONFIG.googleSearchConsole.config.siteVerification}
-              />
-            </>
-          )}
         </Head>
         <body>
           <Main />
