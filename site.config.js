@@ -15,10 +15,6 @@ const CONFIG = {
       name: `TravelUs`,
       href: "https://github.com/FRONTENDSCHOOL5/final-04-fearless4",
     },
-    {
-      name: `Sowith`,
-      href: "https://github.com/Sowith/sowith",
-    },
   ],
   // blog setting (required)
   blog: {
